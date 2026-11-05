@@ -5,7 +5,7 @@ import threading
 from telebot import types
 from datetime import datetime
 
-bot = telebot.TeleBot("9166478847:AAHISO55VCaAeb6-jZW5j2WgURXBYsKvO9Q")
+bot = telebot.TeleBot("")
 
 conn =psycopg.connect("dbname=reminder user=postgres password=qwe host=localhost")
 cur = conn.cursor()
